@@ -5,7 +5,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
   providedIn: 'root'
 })
 export class FinderService  {
-url="api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=9aae6c871098fdb9b10e5e2194ae6bd6";
+url="api.openweathermap.org/data/2.5/weather?q=ohio,US&APPID=9aae6c871098fdb9b10e5e2194ae6bd6";
 apikey="9aae6c871098fdb9b10e5e2194ae6bd6";
   constructor(private http: HttpClient) { }
 
