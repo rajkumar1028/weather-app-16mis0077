@@ -1,3 +1,62 @@
 p {
   font-family: Lato;
 }
+.bro{
+  border: 2px rgb(5, 35, 63);
+  background-color: rgb(35, 209, 209);
+  
+}
+.panel_1
+{
+  border: 2px solid rgb(165, 165, 247);
+  padding: 7px;
+
+}
+.panel_2
+{
+  border: 2px solid black;
+    padding: 10px;
+}
+.panel_3
+{
+  border: 2px solid rgb(218, 26, 26);
+    padding: 7px;
+
+}
+.panel_4
+{
+  border: 2px solid cyan;
+    padding: 7px;
+
+}
+.panel_5
+{
+  border: 2px solid black;
+ 
+    padding: 7px;
+
+}
+.panel_6
+{
+  border: 2px solid black;
+    padding: 7px;
+
+}
+.panel_7
+{
+  border: 2px solid black;
+    padding: 7px;
+
+}
+.panel_8
+{
+  border: 2px solid black;
+    padding: 7px;
+
+}
+.panel_9
+{
+  border: 2px solid black;
+    padding: 7px;
+
+}

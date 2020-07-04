@@ -7,9 +7,11 @@ import { FinderService } from './finder.service';
   styleUrls: [ './app.component.css' ]
 })
 export class AppComponent implements OnInit{
+  name="weather app"
   lat;
 lon;
 weather;
+city;
   constructor(private weatherService:FinderService) {}
 
   ngOnInit() {
@@ -24,10 +26,18 @@ weather;
         
         this.weatherService.getWeatherDataByCoords(this.lat,this.lon).subscribe(data=>{
           this.weather=data;
-        })
+        });
       })
     }
   }
+getCity(city)
+{
+  this.weatherService.getWeatherDataByCityName(this.city).subscribe(data=>{
+    this.weather=data;
+    
+  })
+}
+  
 
 
 }
