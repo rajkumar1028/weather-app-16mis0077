@@ -13,16 +13,16 @@ getWeatherDataByCoords (lat, lon){
   let params= new HttpParams()
   .set('lat',lat)
   .set('lon',lon)
-  .set('units','imperial')
-  .set("appid",this.apikey)
-  return this.http.get(this.url,{params});
+  .set('units', 'imperial')
+  .set("appid", this.apikey)
+  return this.http.get(this.url, {params});
 }
 
-getWeatherDataByCityName (city:string){
-  let params=new HttpParams()
+getWeatherDataByCityName(city: string){
+  let params = new HttpParams()
   .set('q',city)
-  .set('units','imperial')
-  .set('appid',this.apikey)
+  .set('units', 'imperial')
+  .set('appid', this.apikey)
   return this.http.get(this.url, {params});
 }
 }
